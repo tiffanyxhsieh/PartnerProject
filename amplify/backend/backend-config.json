@@ -1,0 +1,20 @@
+{
+	"api": {
+		"partnerproject2": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"additionalAuthenticationProviders": [],
+					"defaultAuthentication": {
+						"authenticationType": "API_KEY",
+						"apiKeyConfig": {
+							"description": "description",
+							"apiKeyExpirationDays": 7
+						}
+					}
+				}
+			}
+		}
+	}
+}
