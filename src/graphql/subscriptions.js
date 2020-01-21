@@ -4,24 +4,24 @@
 export const onCreateBook = `subscription OnCreateBook {
   onCreateBook {
     id
-    name
-    description
+    title
+    author
   }
 }
 `;
 export const onUpdateBook = `subscription OnUpdateBook {
   onUpdateBook {
     id
-    name
-    description
+    title
+    author
   }
 }
 `;
 export const onDeleteBook = `subscription OnDeleteBook {
   onDeleteBook {
     id
-    name
-    description
+    title
+    author
   }
 }
 `;

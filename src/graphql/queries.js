@@ -4,8 +4,8 @@
 export const getBook = `query GetBook($id: ID!) {
   getBook(id: $id) {
     id
-    name
-    description
+    title
+    author
   }
 }
 `;
@@ -17,8 +17,8 @@ export const listBooks = `query ListBooks(
   listBooks(filter: $filter, limit: $limit, nextToken: $nextToken) {
     items {
       id
-      name
-      description
+      title
+      author
     }
     nextToken
   }
