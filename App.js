@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
     color: '#a9a9a9'
   },
   author: { 
-    fontWeight: bold,
+    fontWeight: 'bold',
     color: '#000'
   }
 
