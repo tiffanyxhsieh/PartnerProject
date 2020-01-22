@@ -101,16 +101,16 @@ const styles = StyleSheet.create({
   input: {
     height: 50,
     borderBottomWidth: 2,
-    marginVertical: 10//,
-    //borderBottomColor
-
+    marginVertical: 10,
+    borderColor: '#a9a9a9'
   },
   title: { 
-    //
+    fontSize: 24,
+    color: '#a9a9a9'
   },
   author: { 
-    //
-     
+    fontWeight: bold,
+    color: '#000'
   }
 
 
